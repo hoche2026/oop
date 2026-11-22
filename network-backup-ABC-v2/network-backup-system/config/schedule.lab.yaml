@@ -1,0 +1,6 @@
+# Hai luot dau sau 15/30 giay; backup chi doc running-config.
+schedules:
+  - device: R1
+    interval_seconds: 15
+  - device: R2
+    interval_seconds: 15
