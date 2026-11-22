@@ -1,9 +1,0 @@
-# Vi du inventory-add: doi ten/IP cho thiet bi that cua minh.
-name: R3
-host: 192.168.241.25
-port: 22
-platform: cisco_ios
-group: lab
-role: router
-tags: [branch]
-credential_profile: LAB

@@ -1,7 +1,0 @@
-# Dung voi cisco_interface.j2 va variables.example.yaml tren R1.
-interfaces:
-  FastEthernet1/0:
-    status: up
-    protocol: up
-interface_descriptions:
-  FastEthernet1/0: LAB_TEST

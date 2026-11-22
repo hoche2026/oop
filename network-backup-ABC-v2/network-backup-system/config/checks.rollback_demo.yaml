@@ -1,3 +1,0 @@
-# CO Y SAI de kiem tra rollback tren R1; khong dung nhu checks binh thuong.
-interface_descriptions:
-  FastEthernet1/0: INTENTIONAL_WRONG_EXPECTATION
