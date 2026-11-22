@@ -1,0 +1,12 @@
+2026-11-12 05:42:13,636 INFO app.scheduler Scheduled backup submitted device=R1
+2026-11-12 05:42:13,638 ERROR app.runner task_failed device=R1 task=backup error_type=DeviceConnectionError
+2026-11-12 05:42:13,639 INFO app.runner task_completed device=R1 task=backup status=failed
+2026-11-12 05:42:13,639 INFO app.scheduler Scheduled backup submitted device=R2
+2026-11-12 05:42:13,640 INFO app.scheduler Scheduled runner finished device=R1
+2026-11-12 05:42:13,641 ERROR app.runner task_failed device=R2 task=backup error_type=DeviceConnectionError
+2026-11-12 05:42:13,641 INFO app.runner task_completed device=R2 task=backup status=failed
+2026-11-12 05:42:13,641 INFO app.scheduler Scheduled runner finished device=R2
+2026-11-12 05:43:21,511 ERROR app.runner task_failed device=R1 task=backup error_type=DeviceConnectionError
+2026-11-12 05:43:21,511 INFO app.runner task_completed device=R1 task=backup status=failed
+2026-11-12 05:43:33,023 ERROR app.runner task_failed device=R1 task=facts error_type=DeviceConnectionError
+2026-11-12 05:43:33,023 INFO app.runner task_completed device=R1 task=facts status=failed

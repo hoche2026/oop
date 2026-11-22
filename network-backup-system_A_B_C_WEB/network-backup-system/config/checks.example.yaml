@@ -1,0 +1,6 @@
+# Thay theo ten interface/IP thuc te tren lab truoc khi apply/restore.
+# Check A hien co chi ho tro interfaces va ping.
+interfaces:
+  FastEthernet1/0:
+    status: up
+    protocol: up
