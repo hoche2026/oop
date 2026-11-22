@@ -1,0 +1,3 @@
+# Doi chieu running-config voi cau hinh van ban cua ban sao duoc chon.
+# Khong suy ra trang thai dong/startup-config da khop tu tieu chi nay.
+config_match: true
