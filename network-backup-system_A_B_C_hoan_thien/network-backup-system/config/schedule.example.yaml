@@ -1,0 +1,12 @@
+# Interval tính bằng giây; tên phải có trong inventory do C truyền vào.
+# Lượt đầu sau một interval kể từ khi tạo scheduler.
+# Mỗi thiết bị chỉ có một lịch. Sao chép/chỉnh file trước khi dùng với lab.
+schedules:
+  - device: R1
+    interval_seconds: 300
+  - device: R2
+    interval_seconds: 300
+  - device: SW1
+    interval_seconds: 600
+  - device: MT1
+    interval_seconds: 900
