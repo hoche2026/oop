@@ -1,0 +1,12 @@
+interface FastEthernet1/0
+ ip address {{ link_ip }} 255.255.255.252
+ no shutdown
+interface Loopback101
+ description OOP_OSPF_LAB
+ ip address {{ router_id }} 255.255.255.255
+router ospf 10
+ router-id {{ router_id }}
+ passive-interface default
+ no passive-interface FastEthernet1/0
+ network 10.10.12.0 0.0.0.3 area 0
+ network {{ router_id }} 0.0.0.0 area 0

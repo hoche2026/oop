@@ -1,0 +1,3 @@
+# Dung voi mikrotik_comment.j2 va variables.mikrotik.yaml tren MT1.
+interface_comments:
+  ether2: OOP_COMMENT_TEST
